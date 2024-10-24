@@ -20,3 +20,5 @@ VOLUME /data
 VOLUME /root/.cache/whisper
 
 WORKDIR /data
+
+CMD ["bash", "-c", "while true; do sleep 1000; done"]
